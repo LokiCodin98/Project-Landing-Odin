@@ -1,0 +1,150 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.heading-box {
+       background-color: #1F2937;
+       height: 500px;
+}
+
+header {
+     display: flex;
+     justify-content: space-between;
+     color: #E5E7EB;
+     font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.top-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.top-heading {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.top-p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.top-button {
+  background-color: #3882F6;
+  font-size: 18px;
+  display: flex;
+  width: 10%
+  
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 250px;
+    height: 300px;
+   
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 600px;
+}
+
+.project-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.projects {
+    margin: 20px;
+    border-radius: 10px;
+    border: double #3882F6;
+}
+
+.lower-box {
+    height: 500px;
+    margin-top: 150px;
+}
+
+.lower-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.lower-p {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.lower-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      background-color: #3882f6;
+      border-radius: 10px;
+      height: 150px;
+      font-size: 18px;
+      color: white;
+      font-weight: 900;
+      margin-left: 500px;
+      margin-right: 500px;
+
+}
+
+.lower-button-div {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+
+button {
+   height: 50px;
+   width: 150px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    text-align: center;
+    padding-top: 85px;
+    margin-top: 150px;
+    height: 200px;
+}
